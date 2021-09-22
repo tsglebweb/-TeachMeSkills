@@ -1,0 +1,99 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.elements {
+	padding: 100px 0 108px;
+}
+
+.container {
+	max-width: 1146px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0px 16px;
+}
+
+.h2 {
+	font-family: "Raleway", sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 36px;
+	line-height: 42px;
+}
+
+.title_elements {
+	color: #212121;
+	margin-bottom: 25px;
+}
+
+.line {
+	max-width: 64px;
+	height: 1px;
+}
+
+.line_elements {
+	background-color: #e72424;
+	margin: 0 auto 30px;
+}
+
+.text_elements {
+	font-family: "Open Sans", sans-serif;
+	text-align: center;
+	font-size: 14px;
+	line-height: 19px;
+	color: #86878b;
+	margin-bottom: 67px;
+}
+
+.cards {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	text-align: center;
+}
+
+.card:nth-child(2) {
+	margin: 0 32px;
+}
+
+.bord {
+	width: 70px;
+	height: 70px;
+	border: 1px solid #e72424;
+	border-radius: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 0 auto 30px;
+}
+
+.tabular_pictures_1 {
+	background-image: url(../img/lamp.png);
+}
+
+.tabular_pictures_2 {
+	background-image: url(../img/keyboard.png);
+}
+
+.tabular_pictures_3 {
+	background-image: url(../img/lightning.png);
+}
+
+.h3 {
+	font-family: "Open Sans", sans-serif;
+	font-size: 20px;
+	line-height: 27px;
+}
+
+.card_title {
+	color: #333333;
+	margin-bottom: 20px;
+}
+
+.card_text {
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+	line-height: 19px;
+	color: #000000;
+}
